@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project("Priority_Queue")
+set(CMAKE_C_STANDARD 11)
+SET(CMAKE_C_STANDARD_REQUIRED ON)
+add_executable(test test.c Priority_Queue.c)

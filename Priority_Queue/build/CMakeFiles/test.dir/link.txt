@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test.dir/test.c.o CMakeFiles/test.dir/Priority_Queue.c.o -o test 
