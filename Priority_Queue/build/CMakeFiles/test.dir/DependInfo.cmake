@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/c_code/exerice/task_admin/STL/Priority_Queue.c" "CMakeFiles/test.dir/Priority_Queue.c.o" "gcc" "CMakeFiles/test.dir/Priority_Queue.c.o.d"
-  "/root/c_code/exerice/task_admin/STL/test.c" "CMakeFiles/test.dir/test.c.o" "gcc" "CMakeFiles/test.dir/test.c.o.d"
+  "/root/c_code/STL/Priority_Queue/Priority_Queue.c" "CMakeFiles/test.dir/Priority_Queue.c.o" "gcc" "CMakeFiles/test.dir/Priority_Queue.c.o.d"
+  "/root/c_code/STL/Priority_Queue/test.c" "CMakeFiles/test.dir/test.c.o" "gcc" "CMakeFiles/test.dir/test.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

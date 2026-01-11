@@ -1,7 +1,6 @@
-CMakeFiles/test.dir/test.c.o: /root/c_code/exerice/task_admin/STL/test.c \
+CMakeFiles/test.dir/test.c.o: /root/c_code/STL/Priority_Queue/test.c \
  /usr/include/stdc-predef.h \
- /root/c_code/exerice/task_admin/STL/Priority_Queue.h \
- /usr/include/stdio.h \
+ /root/c_code/STL/Priority_Queue/Priority_Queue.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

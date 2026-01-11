@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/c_code/exerice/task_admin/STL
+CMAKE_SOURCE_DIR = /root/c_code/STL/Priority_Queue
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/c_code/exerice/task_admin/STL/build
+CMAKE_BINARY_DIR = /root/c_code/STL/Priority_Queue/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/test.dir/progress.make
 include CMakeFiles/test.dir/flags.make
 
 CMakeFiles/test.dir/test.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test.c.o: /root/c_code/exerice/task_admin/STL/test.c
+CMakeFiles/test.dir/test.c.o: /root/c_code/STL/Priority_Queue/test.c
 CMakeFiles/test.dir/test.c.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/c_code/exerice/task_admin/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/test.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/test.c.o -MF CMakeFiles/test.dir/test.c.o.d -o CMakeFiles/test.dir/test.c.o -c /root/c_code/exerice/task_admin/STL/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/c_code/STL/Priority_Queue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/test.c.o -MF CMakeFiles/test.dir/test.c.o.d -o CMakeFiles/test.dir/test.c.o -c /root/c_code/STL/Priority_Queue/test.c
 
 CMakeFiles/test.dir/test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/test.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/c_code/exerice/task_admin/STL/test.c > CMakeFiles/test.dir/test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/c_code/STL/Priority_Queue/test.c > CMakeFiles/test.dir/test.c.i
 
 CMakeFiles/test.dir/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/test.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/c_code/exerice/task_admin/STL/test.c -o CMakeFiles/test.dir/test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/c_code/STL/Priority_Queue/test.c -o CMakeFiles/test.dir/test.c.s
 
 CMakeFiles/test.dir/Priority_Queue.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/Priority_Queue.c.o: /root/c_code/exerice/task_admin/STL/Priority_Queue.c
+CMakeFiles/test.dir/Priority_Queue.c.o: /root/c_code/STL/Priority_Queue/Priority_Queue.c
 CMakeFiles/test.dir/Priority_Queue.c.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/c_code/exerice/task_admin/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/Priority_Queue.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Priority_Queue.c.o -MF CMakeFiles/test.dir/Priority_Queue.c.o.d -o CMakeFiles/test.dir/Priority_Queue.c.o -c /root/c_code/exerice/task_admin/STL/Priority_Queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/c_code/STL/Priority_Queue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/Priority_Queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Priority_Queue.c.o -MF CMakeFiles/test.dir/Priority_Queue.c.o.d -o CMakeFiles/test.dir/Priority_Queue.c.o -c /root/c_code/STL/Priority_Queue/Priority_Queue.c
 
 CMakeFiles/test.dir/Priority_Queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Priority_Queue.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/c_code/exerice/task_admin/STL/Priority_Queue.c > CMakeFiles/test.dir/Priority_Queue.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/c_code/STL/Priority_Queue/Priority_Queue.c > CMakeFiles/test.dir/Priority_Queue.c.i
 
 CMakeFiles/test.dir/Priority_Queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Priority_Queue.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/c_code/exerice/task_admin/STL/Priority_Queue.c -o CMakeFiles/test.dir/Priority_Queue.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/c_code/STL/Priority_Queue/Priority_Queue.c -o CMakeFiles/test.dir/Priority_Queue.c.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -109,7 +109,7 @@ test: CMakeFiles/test.dir/test.c.o
 test: CMakeFiles/test.dir/Priority_Queue.c.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/c_code/exerice/task_admin/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/c_code/STL/Priority_Queue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd /root/c_code/exerice/task_admin/STL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/c_code/exerice/task_admin/STL /root/c_code/exerice/task_admin/STL /root/c_code/exerice/task_admin/STL/build /root/c_code/exerice/task_admin/STL/build /root/c_code/exerice/task_admin/STL/build/CMakeFiles/test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/c_code/STL/Priority_Queue/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/c_code/STL/Priority_Queue /root/c_code/STL/Priority_Queue /root/c_code/STL/Priority_Queue/build /root/c_code/STL/Priority_Queue/build /root/c_code/STL/Priority_Queue/build/CMakeFiles/test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test.dir/depend
 
