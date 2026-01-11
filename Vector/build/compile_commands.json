@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/root/c_code/exerice/vector_try/build",
+  "command": "/usr/bin/gcc   -g -std=gnu11 -o CMakeFiles/test.dir/test.c.o -c /root/c_code/exerice/vector_try/test.c",
+  "file": "/root/c_code/exerice/vector_try/test.c",
+  "output": "CMakeFiles/test.dir/test.c.o"
+},
+{
+  "directory": "/root/c_code/exerice/vector_try/build",
+  "command": "/usr/bin/gcc   -g -std=gnu11 -o CMakeFiles/test.dir/Vector.c.o -c /root/c_code/exerice/vector_try/Vector.c",
+  "file": "/root/c_code/exerice/vector_try/Vector.c",
+  "output": "CMakeFiles/test.dir/Vector.c.o"
+}
+]
